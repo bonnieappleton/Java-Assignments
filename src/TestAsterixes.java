@@ -1,6 +1,4 @@
-import javax.print.attribute.standard.MediaSize;
-
-public class Tests {
+public class TestAsterixes {
 
     public static void main (String[] args) {
         testPrintAsterix();
@@ -43,7 +41,7 @@ public class Tests {
     }
 
     public static void testDiamondWithName() {
-        System.out.println("Output should be a diamond with width 2n-1=5");
+        System.out.println("Output should be a diamond with width 2n-1=5 and name as the centre line");
         Diamond.printDiamond(3, "Bonnie");
     }
 }
