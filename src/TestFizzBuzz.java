@@ -9,6 +9,6 @@ public class TestFizzBuzz {
                 "Output should be numbers 1-100 with 'Fizz' instead of multiples of 3 and "
                 + "'Buzz' instead of multiples of 5"
         );
-        FizzBuzz.printNumbers(100);
+        FizzBuzz.FizzBuzz();
     }
 }

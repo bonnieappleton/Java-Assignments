@@ -1,6 +1,6 @@
 public class FizzBuzz {
-    public static void printNumbers(Integer number) {
-        for (int i=1; i<=number; i++) {
+    public static void FizzBuzz() {
+        for (int i=1; i<=100; i++) {
             Boolean fizzOrBuzz = false;
             if (i%3 == 0) {
                 System.out.print("Fizz");
