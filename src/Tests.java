@@ -9,6 +9,7 @@ public class Tests {
         testRightTriangle();
         testIsoscelesTriangle();
         testDiamond();
+        testDiamondWithName();
     }
 
     public static void testPrintAsterix() {
@@ -41,4 +42,8 @@ public class Tests {
         Diamond.printDiamond(3);
     }
 
+    public static void testDiamondWithName() {
+        System.out.println("Output should be a diamond with width 2n-1=5");
+        Diamond.printDiamond(3, "Bonnie");
+    }
 }
