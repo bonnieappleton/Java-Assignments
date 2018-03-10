@@ -1,6 +1,5 @@
 public class PrintAsterix {
-
-    public static voic main (String[] args) {
-        
+    public static void printAsterix(){
+        System.out.println("*");
     }
 }
